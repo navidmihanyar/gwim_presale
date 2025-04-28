@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.mainnet]
+gwimanchor = "GiCazGBqZBQEJz5CipbMMZiWfZX9FRE9kXLtwQNS2Vsj"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "https://api.mainnet-beta.solana.com"
+wallet = "/home/ubuntu/gwimanchor/Authenticator_keypair.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
